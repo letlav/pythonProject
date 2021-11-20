@@ -1,7 +1,8 @@
 import turtle
-turtle.penup()
+a=list(map(int, input().split()))
 for i in range (10):
-    a=int(input())
-    turtle.pendown()
-    turtle.circle(a)
-    turtle.penup
+    turtle.circle(a[i])
+s=max(a)
+turtle.pencolor("red")
+turtle.circle(s)
+turtle.exitonclick()
