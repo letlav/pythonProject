@@ -1,6 +1,7 @@
 _m=dict()
 _p=dict()
 _i=dict()
+a=[]
 k1=0
 k2=0
 k3=0
