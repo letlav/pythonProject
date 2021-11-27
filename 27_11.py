@@ -11,7 +11,7 @@ while True:
     else:
         _m[_s[0]+ ' ' + _s[1]]=int(_s[2])
         k1+=1
-#        print(k1,'_',_s[0][0],'_',len(_s[1]))
+        print(k1,'_',_s[0][0],'_',len(_s[1]), _s[0],_s[1], end=' ')
 while True:
     _s=input().split()
     if _s=='':
